@@ -1,0 +1,23 @@
+{
+  "name": "web-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/St3ve89/web-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/St3ve89/web-template/issues"
+  },
+  "homepage": "https://github.com/St3ve89/web-template#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
