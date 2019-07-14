@@ -18,6 +18,14 @@
     margin: 0 auto;
   }
 
+  &.spbetween {
+    justify-content: space-between;
+  }
+
+  &.sparound {
+    justify-content: space-around;
+  }
+
   .f1 {
     flex: 1;
   }
