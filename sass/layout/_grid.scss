@@ -1,0 +1,24 @@
+.flex {
+  display: flex;
+
+  &.column{
+    flex-direction: column;
+  }
+
+  &.acenter {
+    align-items: center;
+  }
+
+  &.justycenter {
+    justify-content: center;
+  }
+
+  &.container {
+    max-width: 114rem;
+    margin: 0 auto;
+  }
+
+  .f1 {
+    flex: 1;
+  }
+}
